@@ -1,0 +1,26 @@
+.sdg4-container {
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.sdg4-container h1 {
+    margin-bottom: 20px;
+    color: #c5192d;
+}
+
+.sdg4-top-image, .sdg4-bottom-image {
+    width: 80%;
+    height: auto;
+    margin: 20px 0;
+    border: 2px solid #c5192d;
+    border-radius: 8px;
+}
+
+.sdg4-content {
+    margin: 20px 0;
+    padding: 0 10%;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 1.6;
+}

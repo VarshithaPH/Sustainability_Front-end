@@ -1,0 +1,107 @@
+/* General Container for the Register page */
+.register-page {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("C:\JFSD\Learnathon Trails\riyal\src\assets\register.png"); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Container for the form */
+.register-content {
+    background-color: rgba(255, 255, 255, 0.9); 
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 420px;
+    text-align: center;
+    margin: 50px auto;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Fade-in animation for smooth entrance */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Heading style */
+.register-content h1 {
+    font-size: 36px;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    font-weight: bold;
+}
+
+/* Description paragraph */
+.register-content p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+/* Form structure */
+.register-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Form group for each input */
+.form-group {
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+/* Labels for the form fields */
+.form-group label {
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Inputs for the form fields */
+.form-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #f1f1f1;
+    transition: all 0.3s ease;
+}
+
+/* Focus effect on inputs */
+.form-group input:focus {
+    border-color: #3498db;
+    background-color: #fff;
+    box-shadow: 0 0 8px rgba(52, 152, 219, 0.3); /* Subtle blue glow */
+}
+
+/* Submit button */
+.submit-btn {
+    background-color: #3498db;
+    color: #fff;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease
+}

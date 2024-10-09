@@ -1,0 +1,107 @@
+
+.home-container {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+.header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+}
+
+.banner-image {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+.sdg-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.sdg-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.sdg-card:hover {
+    transform: scale(1.05);
+}
+
+/* SDG-specific colors */
+.sdg-1 {
+    background-color: #e5243b; /* SDG 1: No Poverty */
+}
+
+.sdg-2 {
+    background-color: #dda63a; /* SDG 2: Zero Hunger */
+}
+
+.sdg-3 {
+    background-color: #4c9f38; /* SDG 3: Good Health and Well-being */
+}
+
+.sdg-4 {
+    background-color: #c5192d; /* SDG 4: Quality Education */
+}
+
+.sdg-5 {
+    background-color: #ff3a21; /* SDG 5: Gender Equality */
+}
+
+.sdg-6 {
+    background-color: #26bde2; /* SDG 6: Clean Water and Sanitation */
+}
+
+.sdg-7 {
+    background-color: #fcc30b; /* SDG 7: Affordable and Clean Energy */
+}
+
+.sdg-8 {
+    background-color: #a21942; /* SDG 8: Decent Work and Economic Growth */
+}
+
+.sdg-9 {
+    background-color: #fd6925; /* SDG 9: Industry, Innovation and Infrastructure */
+}
+
+.sdg-10 {
+    background-color: #dd1367; /* SDG 10: Reduced Inequality */
+}
+
+.sdg-11 {
+    background-color: #fd9d24; /* SDG 11: Sustainable Cities and Communities */
+}
+
+.sdg-12 {
+    background-color: #bf8b2e; /* SDG 12: Responsible Consumption and Production */
+}
+
+.sdg-13 {
+    background-color: #3f7e44; /* SDG 13: Climate Action */
+}
+
+.sdg-14 {
+    background-color: #0a97d9; /* SDG 14: Life Below Water */
+}
+
+.sdg-15 {
+    background-color: #56c02b; /* SDG 15: Life on Land */
+}
+
+.sdg-16 {
+    background-color: #00689d; /* SDG 16: Peace, Justice and Strong Institutions */
+}
+
+.sdg-17 {
+    background-color: #19486a; /* SDG 17: Partnerships for the Goals */
+}

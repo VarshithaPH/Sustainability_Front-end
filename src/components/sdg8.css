@@ -1,0 +1,26 @@
+.sdg8-container {
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.sdg8-container h1 {
+    margin-bottom: 20px;
+    color: #a21942;
+}
+
+.sdg8-top-image, .sdg8-bottom-image {
+    width: 80%;
+    height: auto;
+    margin: 20px 0;
+    border: 2px solid #a21942;
+    border-radius: 8px;
+}
+
+.sdg8-content {
+    margin: 20px 0;
+    padding: 0 10%;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 1.6;
+}

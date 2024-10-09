@@ -1,0 +1,26 @@
+.sdg17-container {
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.sdg17-container h1 {
+    margin-bottom: 20px;
+    color: #19486a;
+}
+
+.sdg17-top-image, .sdg17-bottom-image {
+    width: 80%;
+    height: auto;
+    margin: 20px 0;
+    border: 2px solid #00689d;
+    border-radius: 8px;
+}
+
+.sdg17-content {
+    margin: 20px 0;
+    padding: 0 10%;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 1.6;
+}

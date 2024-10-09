@@ -1,0 +1,26 @@
+.sdg12-container {
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.sdg12-container h1 {
+    margin-bottom: 20px;
+    color: #bf8b2e;
+}
+
+.sdg12-top-image, .sdg12-bottom-image {
+    width: 80%;
+    height: auto;
+    margin: 20px 0;
+    border: 2px solid #bf8b2e;
+    border-radius: 8px;
+}
+
+.sdg12-content {
+    margin: 20px 0;
+    padding: 0 10%;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 1.6;
+}

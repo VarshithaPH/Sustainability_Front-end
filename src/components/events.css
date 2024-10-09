@@ -1,0 +1,63 @@
+
+
+.events-container {
+    padding: 40px;
+    text-align: center;
+    background-color: #f2f2f2;
+    font-family: 'Arial', sans-serif;
+}
+
+.events-header {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.event-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 700px;
+    text-align: left;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.event-card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.event-card p {
+    margin-bottom: 10px;
+}
+
+/* SDG Theme Colors */
+.sdg1 {
+    border-left: 8px solid #e5243b; /* SDG 1: No Poverty */
+}
+
+.sdg2 {
+    border-left: 8px solid #dda63a; /* SDG 2: Zero Hunger */
+}
+
+.sdg13 {
+    border-left: 8px solid #4c9f38; /* SDG 13: Climate Action */
+}
+
+.sdg4 {
+    border-left: 8px solid #c5192d; /* SDG 4: Quality Education */
+}
+
+.sdg7 {
+    border-left: 8px solid #fcc30b; /* SDG 7: Affordable and Clean Energy */
+}
+
+@media (max-width: 768px) {
+    .event-card {
+        width: 90%;
+    }
+}

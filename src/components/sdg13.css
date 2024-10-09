@@ -1,0 +1,26 @@
+.sdg13-container {
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.sdg13-container h1 {
+    margin-bottom: 20px;
+    color: #3f7e44;
+}
+
+.sdg13-top-image, .sdg13-bottom-image {
+    width: 80%;
+    height: auto;
+    margin: 20px 0;
+    border: 2px solid #3f7e44;
+    border-radius: 8px;
+}
+
+.sdg13-content {
+    margin: 20px 0;
+    padding: 0 10%;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 1.6;
+}

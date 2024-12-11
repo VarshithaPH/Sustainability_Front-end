@@ -1,0 +1,71 @@
+.quiz-container {
+    padding: 20px;
+    background-color: #f7f9fc;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #2a3d66;
+    margin-bottom: 20px;
+}
+
+.question-card, .result-card {
+    background: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.question-card h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.option-btn {
+    padding: 10px 15px;
+    border: 2px solid #2a3d66;
+    border-radius: 5px;
+    background: #f9f9f9;
+    color: #2a3d66;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.option-btn.selected {
+    background: #2a3d66;
+    color: #fff;
+    border-color: #2a3d66;
+}
+
+.option-btn:hover {
+    background: #2a3d66;
+    color: #fff;
+}
+
+.next-btn, .certificate-btn {
+    padding: 10px 20px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.next-btn:hover, .certificate-btn:hover {
+    background: #0056b3;
+}

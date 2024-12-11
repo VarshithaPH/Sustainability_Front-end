@@ -1,42 +1,20 @@
-
 .about-container {
-    text-align: center;
-    padding: 40px;
-    background-color: #f9f9f9;
-    font-family: 'Arial', sans-serif;
-    color: #333;
+    background-color: #f8f9fa; /* Bootstrap light background */
 }
 
-.about-container h1 {
-    font-size: 36px;
-    font-weight: bold;
-    margin-bottom: 20px;
-    color: #2c3e50; 
+.card {
+    border-radius: 0.75rem; /* Rounded corners for cards */
 }
 
-.about-image {
-    width: 80%;
-    max-width: 600px;
-    height: auto;
-    margin: 20px auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+.card-body {
+    padding: 2rem; /* Spacious padding for better readability */
 }
 
-.about-content {
-    margin: 40px auto;
-    width: 80%;
-    max-width: 800px;
-    font-size: 18px;
-    line-height: 1.8;
-    text-align: justify;
-    color: #555;
+.btn-success {
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth hover effects */
 }
 
-.about-content p {
-    margin-bottom: 20px;
-}
-
-.about-content p:last-child {
-    margin-bottom: 0;
+.btn-success:hover {
+    background-color: #218838; /* Slightly darker green */
+    transform: scale(1.05); /* Zoom effect on hover */
 }
